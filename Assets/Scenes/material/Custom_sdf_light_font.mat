@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Custom_sdf_light_font
+  m_Shader: {fileID: 4800000, guid: c18e7b2c31aa3e94bae133976d1f1d84, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fb67c61fba63d534cab0c2d85dd23fcc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedo_tex:
+        m_Texture: {fileID: 2800000, guid: 40426bb91498d2242aaa5c1ae88d6bbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normal_tex:
+        m_Texture: {fileID: 2800000, guid: 127a86d490459714baca0e99de34faf6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistanceMark: 0.5
+    - _SmoothDelta: 0.01
+    - _clip_alpha: 0.05
+    - _gloss: 32
+    - _normal_intensity: 1
+    m_Colors: []
